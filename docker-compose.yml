@@ -6,8 +6,11 @@ services:
     image: joomla
     container_name: joomla    
     restart: unless-stopped
+    expose:
+      - "80"
     depends_on:
       - joomladb
+      - nginx-proxy
     volumes:
       - ./html:/var/www/html
     environment:
