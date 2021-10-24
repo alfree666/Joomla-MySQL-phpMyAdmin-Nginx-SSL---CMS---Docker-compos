@@ -1,5 +1,5 @@
 # joomla-ssl
-Joomla + Mysql + phpMyAdmin + SSL - CMS - Docker-compose
+Joomla + MySQL + phpMyAdmin + Nginx + SSL - CMS - Docker-compose
 
 Ver en "localhost"
 
